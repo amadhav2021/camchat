@@ -1,0 +1,20 @@
+{
+  "name": "camchat",
+  "version": "1.0.0",
+  "description": "Private chat rooms with video and text to communicate with others!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amadhav2021/camchat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amadhav2021/camchat/issues"
+  },
+  "homepage": "https://github.com/amadhav2021/camchat#readme"
+}

@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const PORT = 3000 || process.env.PORT;
 const server = require('http').Server(app);
 const io = require('socket.io')(server);
 const { v4: uuidv4} = require('uuid');
@@ -26,4 +27,6 @@ io.on('connection',socket => {
     });
 });
 
-server.listen(3000);
+server.listen(PORT, () => {
+    console.log('Server reset on port: ', PORT);
+});
